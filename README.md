@@ -2,7 +2,7 @@
 This is an official implementation in PyTorch of tSF, which is accepted by ECCV2022.
 
 <p align="center">
-  <img src="doc/tSF.png" width="60%"/></a>
+  <img src="doc/tSF.png" width="100%"/></a>
 </p>
 
 ## Abstract
@@ -10,7 +10,7 @@ This is an official implementation in PyTorch of tSF, which is accepted by ECCV2
 Few-Shot Learning (FSL) alleviates the challenge of data shortage via generating task-aware embedding features from plenty seen (base) and few unseen (novel) labeled samples. Most feature embedding blocks in recent FSL methods are specially designed for learning tasks (e.g., classification, segmentation, and object detection), which limits the utility of features. To this end, we propose a light and universal module for FSL tasks, named transformer-based Semantic Filter (tSF), which involves a well-designed transformer-based structure to encode the knowledge from whole base set to novel set and filter semantic features for target category. Furthermore, the parameters of tSF is equal to half of a standard transformer block (less than 1M). In the experiments, our tSF is able to boost the performances in different classic few-shot learning tasks (about 2% improvement), especially outperforms the state-of-the-arts on multiple benchmark datasets (e.g., miniImageNet and tieredImageNet) in few-shot classification task.
 
 <p align="center">
-  <img src="doc/tSF_application.png" width="60%"/></a>
+  <img src="doc/tSF_application.png" width="100%"/></a>
 </p>
 
 ## Repository Overview
