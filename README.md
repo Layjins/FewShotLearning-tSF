@@ -1,6 +1,12 @@
 # tSF: Transformer-based Semantic Filter for Few-Shot Learning
 This is an official implementation in PyTorch of tSF, which is accepted by ECCV2022.
 
+Related attention-based methods are SpatialFormer (https://github.com/Layjins/SpatialFormer) and CECNet (https://github.com/Layjins/CECNet).
+
+(1) SpatialFormer: Semantic and Target Aware Attentions for Few-Shot Learning. AAAI 2023.
+
+(2) CECNet: Clustered-patch Element Connection for Few-shot Learning. IJCAI 2023.
+
 <p align="center">
   <img src="doc/tSF.png" width="100%"/></a>
 </p>
